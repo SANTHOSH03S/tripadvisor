@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tripadvisor</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/brands.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/fontawesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/regular.min.css"
+    />
+  </head>
+  <body class="trip">
+    <div>
+      <img
+        class="logo"
+        src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg"
+        alt="Tripadvisor"
+        width="40px"
+        height="40px"
+      />
+      <h1>Tripadvisor</h1>
+      <div id="myNavbar">
+      <ul>
+        <li><a href="#">Discover</a></li>
+        <li><a href="Trips.html">Trips</a></li>
+        <li><a href="">Review</a></li>
+        <li><a href="">Flights</a></li>
+        <li><a href="form.html" class="but">sign in</a></li>
+      </ul>
+      </div>
+    </div>
+
+    <div>
+      <h2 class="mid" id="demo">Where to?</h2>
+      <div class="func">
+        <a href="#" onclick="myFunction0()" class="a1"
+          ><i class="fa-solid fa-house"></i>Search All</a
+        >
+        <a href="#" onclick="myFunction1()" class="a2"
+          ><i class="fa-solid fa-hotel"></i>hotel</a
+        >
+        <a href="#" onclick="myFunction2()" class="a3"
+          ><i class="fas fa-tasks"></i>Things to Do</a
+        >
+        <a href="#" onclick="myFunction3()" class="a4"
+          ><i class="fas fa-pizza-slice" style="font-size: 24px"></i
+          >Restaurants</a
+        >
+        <a href="#" onclick="myFunction4()" class="a5"
+          ><i class="fa-solid fa-snowman"></i>Holiday Homes</a
+        >
+      </div>
+      <search class="search">
+        <i class="fa fa-search"></i>
+        <input
+          type="text"  id="input"
+          placeholder="Places to go, things to do, hotels..."
+        /><button onclick="function5()">Search</button>
+      </search>
+    </div>
+
+    <div>
+      <div class="img-word1">Make the year’s best memories together</div>
+      <div class="img-word2">Check out our top trip recs for the year-end</div>
+      <picture class="NhWcC _R mdkdE o afQPz SyjMH UvOYC"
+        ><source
+          media="(max-width: 400px)"
+          srcset="
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=400&amp;h=-1&amp;s=1 1x,
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=800&amp;h=-1&amp;s=1 2x
+          " />
+        <source
+          media="(max-width: 500px)"
+          srcset="
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=500&amp;h=-1&amp;s=1  1x,
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=1000&amp;h=-1&amp;s=1 2x
+          " />
+        <source
+          media="(max-width: 600px)"
+          srcset="
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=600&amp;h=-1&amp;s=1  1x,
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=1200&amp;h=-1&amp;s=1 2x
+          " />
+        <source
+          media="(max-width: 700px)"
+          srcset="
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=700&amp;h=-1&amp;s=1  1x,
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=1400&amp;h=-1&amp;s=1 2x
+          " />
+        <source
+          media="(max-width: 800px)"
+          srcset="
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=800&amp;h=-1&amp;s=1  1x,
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=1600&amp;h=-1&amp;s=1 2x
+          " />
+        <source
+          media="(max-width: 900px)"
+          srcset="
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=900&amp;h=-1&amp;s=1  1x,
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=1800&amp;h=-1&amp;s=1 2x
+          " />
+        <source
+          media="(max-width: 1000px)"
+          srcset="
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=1000&amp;h=-1&amp;s=1 1x,
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=2000&amp;h=-1&amp;s=1 2x
+          " />
+        <source
+          media="(max-width: 1100px)"
+          srcset="
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=1100&amp;h=-1&amp;s=1 1x,
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=2200&amp;h=-1&amp;s=1 2x
+          " />
+        <img
+          srcset="
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=1200&amp;h=-1&amp;s=1 1x,
+            https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=2400&amp;h=-1&amp;s=1 2x
+          "
+          src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d9/e6/a8/caption.jpg?w=1200&amp;h=-1&amp;s=1"
+          width="1190"
+          height="500px"
+          class="img1"
+          role="none"
+          alt=""
+          loading="lazy"
+      /></picture>
+      <button class="guide-button">See the guide</button>
+    </div>
+
+    <div class="mid2">
+      <h3>Year-end trips to book right now</h3>
+      <p>Countdown parties, sunny beaches, and cultural getaways</p>
+    </div>
+
+    <div class="mid-images">
+      <div>
+        <a href="Trips.html">
+          <img
+            class="img2"
+            src="https://source.unsplash.com/featured?dubai tour "
+            width="250"
+            height="250px"
+        /></a>
+        <div class="dubai">Dubai, United</div>
+        <div class="dubai1">Arab Emirates</div>
+      </div>
+      <div>
+        <img
+          class="img3"
+          src="https://source.unsplash.com/featured?australia,sydney tour "
+          width="250"
+          height="250px"
+        />
+        <div class="dubai">sydney Australia</div>
+      </div>
+      <div>
+        <img
+          class="img4"
+          src="https://source.unsplash.com/featured?taiwan tour "
+          width="250"
+          height="250px"
+        />
+        <div class="dubai">Taipei, Taiwan</div>
+      </div>
+      <div>
+        <img
+          class="img5"
+          src="https://source.unsplash.com/featured?airlie beach tour "
+          width="250"
+          height="250px"
+        />
+        <div class="dubai">Airlie Beach,</div>
+        <div class="dubai1">Australia</div>
+      </div>
+    </div>
+
+    <div class="mid3">
+      <h3>Ways to tour Chennai (Madras)</h3>
+      <p>Book these experiences for a close-up look at Chennai (Madras).</p>
+    </div>
+
+    <div class="mid-images1">
+      <div>
+        <img
+          class="img6"
+          src="https://source.unsplash.com/featured?temple sculpture mahabalipuram "
+          width="250"
+          height="250px"
+        />
+        <div>Dubai, United</div>
+        <div>Arab Emirates</div>
+      </div>
+      <div>
+        <img
+          class="img7"
+          src="https://source.unsplash.com/featured?australia,sydney tour "
+          width="250"
+          height="250px"
+        />
+        <div>sydney Australia</div>
+      </div>
+      <div>
+        <img
+          class="img8"
+          src="https://source.unsplash.com/featured?taiwan tour "
+          width="250"
+          height="250px"
+        />
+        <div>Taipei, Taiwan</div>
+      </div>
+      <div>
+        <img
+          class="img9"
+          src="https://source.unsplash.com/featured?airlie beach tour "
+          width="250"
+          height="250px"
+        />
+        <div>Airlie Beach,</div>
+        <div>Australia</div>
+      </div>
+    </div>
+
+    <section>
+      <div class="foot-icon">
+        <img
+          class="ofrmB"
+          src="https://static.tacdn.com/img2/travelers_choice/2023/TC_badge_yellow.svg"
+          alt=""
+        />
+        <h2 class="GbYXs">Travellers' Choice Best of the Best</h2>
+        <span class="iilYR"
+          >Our top 1% of places, stays, eats, and experiences—decided by
+          you.</span
+        >
+        <div class="Iiqvd">
+          <a class="rmyCe" href="/TravelersChoice">See the winners</a>
+        </div>
+      </div>
+    </section>
+
+   
+
+
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
